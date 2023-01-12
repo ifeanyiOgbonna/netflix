@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Netflix sans";
+  src: url(./fonts/NetflixSansBlack.ttf);
+  src: url(./fonts/NetflixSansLight.ttf);
+}
+
+.hero {
+  background-image: url(/images/MoviePoster.png);
+  background-size: cover;
+  max-height: 747px;
+  height: 747px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 10px;
+  padding-left: 56px;
+  background-color: #141414;
+}
+
+ul li {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: #e5e5e5;
+}
+
+.nav-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav-link a {
+  font-size: 14px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.nav-portfolio i {
+  color: #ffffff;
+  line-height: 100%;
+  width: 52px;
+}
+
+.movie-name {
+  width: 285px;
+  height: 115px;
+  margin-left: 60px;
+  margin-top: 200px;
+  margin-bottom: 15px;
+}
+
+.sub {
+  display: flex;
+  margin-left: 60px;
+}
+
+.sub-head {
+  font-size: 26px;
+  line-height: 33px;
+  color: #ffffff;
+  width: 636px;
+  margin-bottom: 15px;
+}
+
+.top-10 {
+  padding-right: 15px;
+  width: 53px;
+  height: 26.55px;
+}
+
+.container-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+
+.main-description {
+  font-size: 26px;
+  line-height: 33px;
+  color: #ffffff;
+  width: 636px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+
+.main-btn:first-child i {
+  margin-right: 24px;
+  width: 20px;
+  color: #141414;
+}
+
+.btn {
+  font-size: 22px;
+  line-height: 28px;
+  color: #141414;
+  font-weight: 500;
+  padding: 15px 30px;
+  width: 175px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.btn2 {
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 15px 30px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  width: 276px;
+}
+
+.main-btn i {
+  color: white;
+  margin-right: 24px;
+}
+
+.menu {
+  font-size: 26px;
+  line-height: 33px;
+  width: 213px;
+  color: #e5e5e5;
+  margin-left: 60px;
+}
+
+.movie-container {
+  padding-left: 60px;
+  background: #141414;
+  background-size: cover;
+}
+
+.movie-title {
+  font-size: 26px;
+  line-height: 33px;
+  color: #e5e5e5;
+  margin-top: 41px;
+  margin-bottom: 10px;
+}
+
+.image22 {
+  width: 229px;
+  height: 160px;
+  margin: 0px;
+}
+
+.end-icons {
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+
+.link {
+  font-size: 13px;
+  line-height: 17px;
+  color: #808080;
+  padding: 16px 38.5px;
+  border: 1px solid #333333;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+
+.container-list {
+  margin-bottom: 61px;
+}
+
+.btn-cover {
+  font-size: 11px;
+  line-height: 14px;
+  color: #808080;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.finally {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.end-list {
+  font-size: 13px;
+  line-height: 17px;
+  color: #808080;
+  padding: 15px;
+}
+

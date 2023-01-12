@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Netflix sans";
+  src: url(./fonts/NetflixSansBlack.ttf);
+  src: url(./fonts/NetflixSansLight.ttf);
+}
+
+body {
+  background-color: #000000;
+}
+
+.container {
+  padding: 58px 24px;
+}
+
+.header {
+  font-size: 64px;
+  line-height: 82px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+  margin-bottom: 30px;
+}
+
+.container-profile-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-left: 120px;
+  margin-bottom: 70px;
+}
+
+.red {
+  width: 200px;
+  height: 200px;
+}
+
+.image1 {
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(109, 109, 110, 0.7);
+  margin-top: 20px;
+}
+
+.image2 {
+  margin-left: 90px;
+  width: 120px;
+  height: 120px;
+  margin-top: 25px;
+  margin-right: 160px;
+}
+
+.p2 {
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(109, 109, 110, 0.7);
+  margin-top: 80px;
+  margin-right: 90px;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.p3 {
+  font-size: 26px;
+  line-height: 33px;
+  color: #808080;
+  text-align: center;
+  border: 1px solid #333333;
+  padding: 16px 38.5px;
+  width: 326px;
+}
